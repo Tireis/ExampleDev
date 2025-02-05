@@ -6,5 +6,5 @@ It's a personalized small wiki for programming.
 
 Contents:
 
-- A small html project
-- Howto: CSS
+- A small html project: "SmallHTML"
+- Howto: CSS (within the "SmallHTML")
