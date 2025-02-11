@@ -10,4 +10,6 @@ It's a personalized small wiki for programming.
 >- A small html project: "SmallHTML"
 >- Howto: CSS (within the "SmallHTML")
 >
+>- Django REST Framework
+>
 >___
