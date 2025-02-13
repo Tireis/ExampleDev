@@ -12,6 +12,6 @@ It's a personalized small wiki for programming.
 >
 >- Example Django REST Framework: "Example_Django_REST"
 >
->- Angular Example: "Cake Application"
+>- Angular Example: "cake_app"
 >
 >___

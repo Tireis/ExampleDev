@@ -27,8 +27,18 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "./node_modules/@wm-iot/connect-design-system/assets",
+                "output": "/assets/"
+              }
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "node_modules/@wm-iot/connect-design-system/assets/scss"
+              ]
+            },
             "styles": [
               "src/styles.scss"
             ],
