@@ -1,7 +1,6 @@
-<cds-header
-  [links]="[{title: 'Entry Without Link'}, 
-  {title: 'Support', url: 'https://www.weidmueller.com/int/service/index.jsp', iconName: 'user-management'},
-  {title: 'Webshop', url: 'https://eshop.weidmueller.com/weidmueller-com/en/', iconName: 'categorical'},
-  {title: 'Digital Platform', url: 'https://easyconnect-dev.weidmueller.com/', iconName: 'cloud', target: '_self'}]"></cds-header>
-
+<cds-header 
+[links]="[{title: 'Home', url: '/', iconName: 'home', target: '_self'},
+{title: 'Recipes', url: '/recipes', iconName: 'categorical', target: '_self'},
+{title: 'Popular Recipes', url: '/popular', iconName: 'categorical', target: '_self'},
+{title: 'Add Recipe', url: '/add', iconName: 'cloud', target: '_self'}]"></cds-header>
 <router-outlet />
